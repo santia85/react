@@ -9,7 +9,7 @@
   {
     "id": 2,
     "nombre": "Superman",
-    "precio": 35000,
+    "precio": 15000,
     "stock": 10,
     "imagen": "/img/superman.webp"
   },
@@ -17,8 +17,48 @@
     {
     "id": 3,
     "nombre": "X men",
-    "precio": 35000,
+    "precio": 14000,
     "stock": 10,
     "imagen": "/img/xmen.jpg"
+  },
+
+     {
+    "id": 4,
+    "nombre": "Spawn",
+    "precio": 15000,
+    "stock": 10,
+    "imagen": "/img/spawn.webp"
+  },
+
+       {
+    "id": 5,
+    "nombre": "Lobo",
+    "precio": 16000,
+    "stock": 10,
+    "imagen": "/img/lobo.jpg"
+  },
+
+       {
+    "id": 6,
+    "nombre": "Ranma",
+    "precio": 16000,
+    "stock": 10,
+    "imagen": "/img/ranma.webp"
+  },
+
+       {
+    "id": 7,
+    "nombre": "Walking Dead",
+    "precio": 17000,
+    "stock": 10,
+    "imagen": "/img/walking_dead.jpg"
+  },
+
+         {
+    "id": 8,
+    "nombre": "Dragon Ball",
+    "precio": 18000,
+    "stock": 10,
+    "imagen": "/img/dragon_ball.jpg"
   }
 ]
