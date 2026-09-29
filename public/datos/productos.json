@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nombre": "El eternauta",
+    "precio": 60000,
+    "stock": 22,
+    "imagen": "/img/eternauta.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Superman",
+    "precio": 35000,
+    "stock": 10,
+    "imagen": "/img/superman.webp"
+  },
+
+    {
+    "id": 3,
+    "nombre": "X men",
+    "precio": 35000,
+    "stock": 10,
+    "imagen": "/img/xmen.jpg"
+  }
+]

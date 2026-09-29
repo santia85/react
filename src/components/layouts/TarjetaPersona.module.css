@@ -1,0 +1,63 @@
+.tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 1rem;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.avatar {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #6366f1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.datos {
+  min-width: 0;
+}
+
+.nombre {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.rol {
+  margin: 0 0 0.25rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.email {
+  display: block;
+  font-size: 0.85rem;
+  color: #d1d5db;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+    flex: 1 1 100%;
+  }
+}

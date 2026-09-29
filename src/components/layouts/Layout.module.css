@@ -1,0 +1,10 @@
+.layout {
+  flex: 1; /* ocupa el alto de #root para que el footer quede abajo */
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 0 1.5rem 2rem;
+}

@@ -1,0 +1,31 @@
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 16px 24px;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.link:hover {
+  color: var(--text-h);
+  background: var(--accent-bg);
+}
+
+/* react-router-dom le agrega esta clase automáticamente
+   al link que coincide con la ruta actual */
+.link.active {
+  color: var(--accent);
+  background: var(--accent-bg);
+  font-weight: 700;
+}
