@@ -7,9 +7,7 @@ import Carrito from "./pages/Carrito";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
-  return (
-    // BrowserRouter habilita el ruteo en toda la app.
-   
+  return (   
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<Productos />} />
