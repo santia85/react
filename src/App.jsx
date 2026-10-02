@@ -9,10 +9,7 @@ import NotFound from "./pages/NotFound";
 const App = () => {
   return (
     // BrowserRouter habilita el ruteo en toda la app.
-    <BrowserRouter>
-      {/* Layout queda afuera de las Routes, así el Header y el Footer
-          se ven siempre, sin importar en qué ruta estemos */}
-      <Layout>
+   
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<Productos />} />
@@ -20,8 +17,6 @@ const App = () => {
           <Route path="/carrito" element={<Carrito />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Layout>
-    </BrowserRouter>
   );
 };
 
